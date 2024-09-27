@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.Navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-3);
+    padding: 15px 30px;
+}
+.logoPequena{
+    height: 150px;
+    width: 150px;   
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 400px;
+}
+
+.nav-links li {
+    margin: 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: var(--cor-4); /* Cor ao passar o mouse */
+}
