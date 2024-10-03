@@ -4,3 +4,8 @@
   --cor-3: #e96a7e;
   --cor-4: #ce1f3a;
 }
+*{
+  margin:0%;
+  padding: 0%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,64 @@
+:root {
+    --cor-1: #e23e57;
+    --cor-2: #ffffff;
+    --cor-3: #e96a7e;
+    --cor-4: #ce1f3a;
+}
+
+.Corpo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--cor-2);
+    min-height: 100vh; /* Para ocupar a tela inteira */
+}
+
+.logoGrande {
+    margin: 20px 0;
+    max-width: 100%; /* Para garantir que a imagem não ultrapasse a largura */
+    height: auto; /* Manter a proporção da imagem */
+}
+
+.boasVindas {
+    color: var(--cor-4);
+    text-align: center;
+    font-size: 2rem; /* Aumentando o tamanho da fonte */
+    margin: 20px 0;
+}
+
+.textoApresentacao {
+    color: var(--cor-4);
+    text-align: center;
+    font-size: 1.2rem; /* Tamanho da fonte */
+    max-width: 600px; /* Limitar a largura para melhor legibilidade */
+    margin: 0 20px; /* Margens laterais */
+    line-height: 1.5; /* Aumentar o espaçamento entre linhas */
+}
+.convite-container {
+    background-color: var(--cor-3);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.tituloConvite {
+    color: var(--cor-1);
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.textoConvite {
+    color: var(--cor-4);
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.detalhesConvite {
+    color: var(--cor-4);
+    font-size: 1.2rem;
+    margin: 10px 0;
+    font-weight: bold; /* Destacar informações */
+}

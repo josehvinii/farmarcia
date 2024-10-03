@@ -1,10 +1,11 @@
 import React from 'react'
 import './Navbar.css'
+import Logo from './Logo'
 
 function Navbar() {
   return (
     <div className='Navbar-container'>
-      <img className='logoPequena' src="./images/farmarcia-logo-pq.avif" alt=""  />
+      <div className='logoPequena'><Logo/></div>
       <h1>Farmárcia</h1>
       <button className='Home'>Home</button>
       <button className='Sobre'>Sobre</button>
